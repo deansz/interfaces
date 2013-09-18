@@ -1,15 +1,9 @@
-<h1>title page</h1>
-<%= link_to "My Blog", controller: "posts" %>
-<body>
-	<p> this is a thing I'm making </p>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1000px" height="1500px">
-	<path 
-
-		style="fill:none;stroke:#333333;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8000;stroke-dashoffset:8000"
-				data-0="stroke-dashoffset:8000;" data-500="stroke-dashoffset:0;" 
-
-			d="M357.603,20.791c5.905,15.758,19.873,22.852,35.514,26.235
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="739px" height="1064px" viewBox="0 0 739 1064" enable-background="new 0 0 739 1064" xml:space="preserve">
+<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M357.603,20.791c5.905,15.758,19.873,22.852,35.514,26.235
 	c17.777,3.845,36.072,4.656,53.905,8.257c15.971,3.225,31.126,8.667,45.757,15.79c14.682,7.147,29.001,14.987,43.814,21.873
 	c16.949,7.878,34.361,14.729,51.256,22.722c12.854,6.082,28.615,13.458,35.301,26.873c6.878,13.802,0.686,30.117-5.516,42.945
 	c-21.634,44.754-57.837,80.871-95.431,112.411c-1.101-1.619-0.793-2.996-1.389-4.634c-0.688-1.891-2.662-2.982-2.957-5.104
@@ -105,11 +99,3 @@
 	c-0.513,27.432,2.924,54.88,3.354,82.319c0.936,59.868-1.98,119.737-3.854,179.56c-0.991,31.621-1.181,63.03,0.595,94.614
 	C295.504,904.33,298.485,972.109,300,1040"/>
 </svg>
-
-
-	<script type="text/javascript" src="skrollr.min.js"></script>
-    <script type="text/javascript">
-    var s = skrollr.init();
-    </script>
-</body>
-</body>

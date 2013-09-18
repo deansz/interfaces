@@ -12,6 +12,7 @@ group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
+gem 'heroku'
 gem 'strong_parameters'
 gem 'omniauth'
 gem 'omniauth-twitter'
