@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link type="text/css" rel="stylesheet" href="application.css"/>
   <title>Inter_faces</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div id="navbar">
+		<div id="navbar">
+				<ul>
+					<li><%= link_to "About", about_path %></li>
+					<li><%= link_to "Theory", theory_path %></li>
+					<li><%= link_to "Contact", contact_path %></li>
+					<li><%= link_to "Tools", tools_path %></li>
+				</ul>
+			</div>
+
 <%= yield %>
 
 </body>
