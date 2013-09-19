@@ -1,13 +1,13 @@
 <h1>New Post</h1>
 
-<%= form_for :post do |f| %>
+<%= form_for :post, url: posts_path do |f| %>
   <p>
-    <%= f.label :"your name" %><br>
+    <%= f.label :title %><br>
     <%= f.text_field :title %>
   </p>
  
   <p>
-    <%= f.label :"your thoughts" %><br>
+    <%= f.label :text %><br>
     <%= f.text_area :text %>
   </p>
  
