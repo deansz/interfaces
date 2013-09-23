@@ -1,6 +1,18 @@
 Blog::Application.routes.draw do
 
 
+  get "static_pages/theory"
+
+  get "static_pages/contact"
+
+  get "static_pages/tools"
+
+  get "static_pages/home"
+
+  get "static_pages/help"
+
+  get "static_pages/about"
+
     resources :posts
 root :to => 'welcome#index'
 match "/auth/:provider/callback" => "sessions#create"
