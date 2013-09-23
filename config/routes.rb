@@ -1,17 +1,13 @@
 Blog::Application.routes.draw do
 
 
-  get "static_pages/theory"
+  match '/theory', to: 'static_pages#theory', via: 'get'
 
-  get "static_pages/contact"
+  match '/contact', to: 'static_pages#contact', via: 'get'
 
-  get "static_pages/tools"
+  match '/tools', to: 'static_pages#tools', via: 'get'
 
-  get "static_pages/home"
-
-  get "static_pages/help"
-
-  get "static_pages/about"
+  match '/about', to: 'static_pages#about', via: 'get'
 
     resources :posts
 root :to => 'welcome#index'

@@ -11,3 +11,26 @@
  *= require_self
  *= require_tree .
  */
+#navbar {
+	position: fixed;
+	top:10px;
+	left:50%;
+	margin-left:-254px;
+}
+
+/* will need to change these to be specific to certain pages rather than all of them
+or specify classes otherwise all lists end up looking like navbar. awkwardlol*/
+ul{
+	list-style-type: none;
+	position: fixed;
+	margin: -10px;
+}
+
+li {
+	display: inline;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #3e3c68;
+	padding: 5px;
+	background-color: #3e3c68
+}
