@@ -9,6 +9,8 @@ Blog::Application.routes.draw do
 
   match '/about', to: 'static_pages#about', via: 'get'
 
+  match '/index', to: 'welcome#index', via: 'get'
+  
     resources :posts
 root :to => 'welcome#index'
 match "/auth/:provider/callback" => "sessions#create"
