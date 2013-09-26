@@ -17,7 +17,7 @@
   left: -10px;
   float: left;
   width: 100%;
-  height: 50px;
+  height: 30px;
   background-color: #d3d3d3;
   z-index: 1
 }
@@ -27,17 +27,21 @@ or specify classes otherwise all lists end up looking like navbar. awkwardlol*/
 
 #navbar li {
 	display: inline;  
-	font-family: georgia;
+	font-family: garamond;
 	font-color: #000000;
   font-style: italic;
+  font-size: 18pt;
   padding: 5%;
 	
 }
 
 #skrollr-body {
-  width:100%; 
+  width:60%; 
   height:100%;
+  margin-left:30%;
+  margin-right:20%;
   padding-top: 3%;
+  text-align: center;
 }
 
 #linework {
@@ -47,8 +51,25 @@ or specify classes otherwise all lists end up looking like navbar. awkwardlol*/
 
 #text1 {
   position: absolute;
-  width:80%;
+  width:800px;
 	padding:2em;
   z-index: 50
 }
-  
+ 
+a:link {
+  color:#aaaaaa;}    /* unvisited link */
+a:visited {
+  color:#666666;} /* visited link */
+a:hover {
+  color:#6dcff6;}   /* mouse over link */
+a:active {
+  color:#FFFFFF;}  /* selected link */
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+body {font-family: garamond;
+      font-size:large;
+}
