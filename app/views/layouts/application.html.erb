@@ -7,20 +7,18 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-	<div id="navbar">
-		<div id="navbar">
-				<ul>
-					<li><%= link_to "About", about_path %></li>
-					<li><%= link_to "Theory", theory_path %></li>
-					<li><%= link_to "Contact", contact_path %></li>
-					<li><%= link_to "Tools", tools_path %></li>
-          <li><%= link_to "Home", index_path %></li>
+<div id =body>
+  <div id ="content">
+    <ul id="navbar" >
+    <li><%= link_to "about", about_path %></li>
+					<li><%= link_to "theory", theory_path %></li>
+					<li><%= link_to "contact", contact_path %></li>
+					<li><%= link_to "tools", tools_path %></li>
+          <li><%= link_to "home", index_path %></li>
 				</ul>
 			</div>
-
+  </div>
 <%= yield %>
-<a href="https://twitter.com/intent/tweet?button_hashtag=interfacesproject" class="twitter-hashtag-button" data-related="zoedeans">Tweet #interfacesproject</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 </body>
 </html>

@@ -18,7 +18,6 @@ gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'multi_json'
 gem 'skrollr-rails'
-gem 'tweet-button'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
