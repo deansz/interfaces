@@ -1,8 +1,8 @@
 #linework {
   position: absolute;
-  margin-left:9%;
-  top:1500px;
-  z-index: -1
+  margin-left:25%;
+  top:1970px;
+  z-index: -1;
 }
 
 #text1 {
@@ -32,4 +32,25 @@
           color:#aaaaaa;
           position: absolute;
           z-index: 53
+}
+
+#question {
+       z-index: 54;
+       position: absolute;
+       width:40%;
+       margin-left:9%
+}
+
+#drawings {
+          position: absolute;
+          top: 3000px;
+          width:40%;
+          margin-left:9%;
+}
+
+#precedents {
+          position: absolute;
+          top: 5300px;
+          width:40%;
+          margin-left:9%;
 }
