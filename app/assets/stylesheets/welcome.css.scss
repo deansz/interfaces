@@ -1,2 +1,35 @@
+#linework {
+  position: absolute;
+  margin-left:9%;
+  top:1500px;
+  z-index: -1
+}
 
+#text1 {
+  position: absolute;
+  width:40%;
+	margin-left:9%;
+  z-index: 50
+}
 
+#aim {
+  position: absolute;
+  width:40%;
+  margin-left:9%;
+  z-index: 51
+}
+
+#how {
+  position: absolute;
+  width:40%;
+  margin-left:9%;
+  z-index: 52
+}
+
+#funfact {font-family: garamond;
+          font-size: x-large;
+          font-style: italic;
+          color:#aaaaaa;
+          position: absolute;
+          z-index: 53
+}
