@@ -1,29 +1,9 @@
 #linework {
   position: absolute;
-  margin-left:25%;
+  margin-left:9%;
+  width:40%;
   top:1970px;
   z-index: -1;
-}
-
-#text1 {
-  position: absolute;
-  width:40%;
-	margin-left:9%;
-  z-index: 50
-}
-
-#aim {
-  position: absolute;
-  width:40%;
-  margin-left:9%;
-  z-index: 51
-}
-
-#how {
-  position: absolute;
-  width:40%;
-  margin-left:9%;
-  z-index: 52
 }
 
 #funfact {font-family: garamond;
@@ -39,18 +19,4 @@
        position: absolute;
        width:40%;
        margin-left:9%
-}
-
-#drawings {
-          position: absolute;
-          top: 3000px;
-          width:40%;
-          margin-left:9%;
-}
-
-#precedents {
-          position: absolute;
-          top: 5300px;
-          width:40%;
-          margin-left:9%;
 }

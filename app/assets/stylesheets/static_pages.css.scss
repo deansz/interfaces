@@ -1,3 +1,21 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#text1 {
+  position: absolute;
+  width:40%;
+	margin-left:9%;
+  z-index: 50
+}
+
+#aim {
+  position: absolute;
+  width:40%;
+  margin-left:9%;
+  z-index: 51
+}
+
+#how {
+  position: absolute;
+  width:40%;
+  margin-left:9%;
+  z-index: 52
+}
