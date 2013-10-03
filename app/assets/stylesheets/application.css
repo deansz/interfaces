@@ -11,6 +11,8 @@
  *= require_self
  *= require_tree .
  */
+
+body { padding-top: 100px; }
 #navbar {
 	position: fixed;
 	top: -10px;
@@ -64,5 +66,6 @@ body {font-family: garamond;
 }
 
 hr {background-color:#6dcff6;
-    height: 3px;
+    height: 2px;
+    border: none;
 }

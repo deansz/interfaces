@@ -1,26 +1,19 @@
-<h1>Listing posts</h1>
-<%= link_to 'New post', new_post_path %>
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-    <th></th>
- 
-  </tr>
- 
-  
-  <% @posts.in_groups_of(3) do |group| %>
-    <% group.compact.each do |post| %>
-      <tr>
-      <td><%= post.title %></td>
-      <td><%= post.text %></td>
-      <td><%= link_to 'Show', post_path(post) %>
+<div class="outer">
+ <!-- the 'your thoughts' bit would be nice as a png in blue font-->
+  <h1>your thoughts</h1>
+  <div><%= link_to 'New post', new_post_path %></div>
+
+
+<% @posts.each do |post| %>
+      <div class="inner">
+        <div class="posttitle"><%= post.title %><br></div>
+      <%= link_to 'Show', post_path(post) %>
       <%= link_to 'Edit', edit_post_path(post) %>
       <%= link_to 'Destroy', post_path(post),
-                      method: :delete, data: { confirm: 'Do you for reals wanna delete this?' } %></td>
-    </tr>
-      </div>
+                      method: :delete, data: { confirm: 'Do you really want to delete this?' } %><hr>
+      <%= post.text %>
+        </div>
     <% end %>
   </div>
-<% end %>
-</table>
+
+</div>
