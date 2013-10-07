@@ -12,7 +12,13 @@
  *= require_tree .
  */
 
-body { padding-top: 100px; }
+body { 
+  padding-top: 100px;
+  background-image :url('http://s12.postimg.org/68948ji4t/Scan.png');
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
 #navbar {
 	position: fixed;
 	top: -10px;
