@@ -4,7 +4,7 @@
   height:3000px;
   margin-left: 10%;
   text-align: center;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   position: fixed;
 }
 
@@ -13,23 +13,44 @@
 }
 
 #linework1 {
-  z-index: 2;
-  width: 50%;
-  margin-left: 45%;
+  z-index: 20;
+  margin-left: 55%;
 }
   
-#question {
+#question1 {
        z-index: 54;
        position: absolute;
-       width:40%;
-       margin-left:9%;
+       width:800px;
+       margin-left: -30%;
 }
 
+#question2 {
+       z-index: 57;
+       position: absolute;
+       width:800px;
+       margin-left: -30%;
+}
+
+#question3 {
+       z-index: 65;
+       position: absolute;
+       width:800px;
+       margin-left: -30%;
+}
+
+#question4 {
+      z-index: 85;
+       position: absolute;
+       width:800px;
+       margin-left: -30%;
+}
+  
 #pip2 {
-  width:800px;
+  width: 50%;
   position: absolute;
-  z-index: 60;
+  z-index: 4;
   margin-left: -40%;
+  padding-right: 5%;
 
 }
 
@@ -37,5 +58,74 @@
     position: absolute;
     z-index: 70;
     width: 50%;
-    margin-left: 25%;
+    margin-left: -25%;
 }
+
+#fact2 {
+   position: absolute;
+    z-index: 71;
+    width: 50%;
+    margin-left: -25%;
+}
+
+#fact3 {
+    position: absolute;
+    z-index: 73;
+    width: 50%;
+    margin-left: -25%;
+}
+
+#fact4 {
+    position: absolute;
+    z-index: 75;
+    width: 50%;
+    margin-left: -25%;
+}
+
+#screen {
+  position: absolute;
+  width: 50%;
+  z-index: -1;
+}
+
+#screen2 {
+  position: absolute;
+  width: 50%;
+  margin-left: -25%;
+}
+
+#nose1 {
+  position: absolute;
+  z-index: 72;
+  width: 120px;
+  margin-left: 18%;
+}
+
+#pipback {
+  position: absolute;
+  width: 40%;
+  margin-left: -35%;
+}
+
+#strangers {
+  position: absolute;
+  width: 30%;
+  margin-left: -10%;
+}
+
+#smiling {
+  position: absolute;
+  width: 30%;
+  margin-left: -10%;
+  z-index: 80;
+}
+
+#finalbit {
+  position: absolute;
+  text-align: center;
+  font-size: xx-large;
+  width: 50%;
+  margin-left: 25%;
+ 
+}
+  

@@ -13,9 +13,10 @@
 /*---reset-----*/
 
 body { 
-  padding-top: 100px;
-  /* background-image: image-url("Scan.png");*/
-  background-color: #c8c8c8;
+  padding-top: 50px;
+  /*---- make background image better quality ----*/
+  background-image: image-url("background.png");
+  /*background-color: #c8c8c8;*/
   background-repeat: repeat-y;
   background-size: 100%;
 }
