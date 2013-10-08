@@ -11,7 +11,6 @@
 <!-- need to re-order navbar links to make it more intuitive - the home button should be far left. also the tweet button is a pain in the ass b/c disables
 links when it's below them e.g. when browser is too small, fix this somehow-->
   
-  <div id ="content">
     <ul id="navbar" >
     <li><%= link_to "about", about_path %></li>
 					<li><%= link_to "theory", theory_path %></li>
@@ -21,7 +20,7 @@ links when it's below them e.g. when browser is too small, fix this somehow-->
       <li><%= link_to "your thoughts", controller: "posts" %></li>
       <li><a href="https://twitter.com/intent/tweet?button_hashtag=interfacesproject" class="twitter-hashtag-button" data-related="zoedeans">Tweet #interfacesproject</a></li>
 				</ul>
-			</div>
+
 
 <%= yield %>
 

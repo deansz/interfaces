@@ -1,26 +1,41 @@
-#linework {
-  position: absolute;
-  margin-left:9%;
-  width:40%;
-  top:1970px;
-  z-index: -1;
+
+.centered {
+  width:80%; 
+  height:3000px;
+  margin-left: 10%;
+  text-align: center;
+  background-color: #ffffff;
+  position: fixed;
 }
 
-#funfact {font-family: garamond;
-          font-size: x-large;
-          font-style: italic;
-          color:#aaaaaa;
-          position: absolute;
-          z-index: 53
+#intro {
+  text-align: center;
 }
 
+#linework1 {
+  z-index: 2;
+  width: 50%;
+  margin-left: 45%;
+}
+  
 #question {
        z-index: 54;
        position: absolute;
        width:40%;
-       margin-left:9%
+       margin-left:9%;
 }
 
 #pip2 {
-  width: 70%
+  width:800px;
+  position: absolute;
+  z-index: 60;
+  margin-left: -40%;
+
+}
+
+#fact1 {
+    position: absolute;
+    z-index: 70;
+    width: 50%;
+    margin-left: 25%;
 }
