@@ -1,11 +1,9 @@
-
-.centered {
-  width:80%; 
-  height:3000px;
-  margin-left: 10%;
-  text-align: center;
-  /*background-color: #ffffff;*/
-  position: fixed;
+#skrollrviewwindow {
+  width:1500px; /*use 2000 px for exhibition*/
+  height:100%; 
+  position:fixed;
+  /*background-color: #e2f0b6;*/
+  /*may have to add overflow-x: scroll; property when changing image components to fixed sizes*/
 }
 
 #intro {

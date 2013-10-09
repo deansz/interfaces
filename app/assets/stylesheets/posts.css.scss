@@ -1,19 +1,14 @@
-.outer {
+#outer {
     width: 100%;
-    height: 100%;
     background-color: white;
-    position: relative;
-    margin-left: 5%;
+    position: relative; /*this has to be relative otherwise shit gets fucked up*/
 }
 
 .inner {
     float: left;
-    width: 20%;
-    height: 100%;
-    margin-right: 0.5%;
-    margin-bottom: 0.5%;
     background-color: #d3d3d3;
-    padding: 1%;
+    position: relative;
+    overflow-y: scroll; /*make the scrollbars less ugly at some point*/
 }
 
 .posttitle {

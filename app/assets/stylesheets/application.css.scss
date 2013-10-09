@@ -21,6 +21,14 @@ body {
   background-size: 100%;
 }
 
+.centered {
+  width:1500px; /*use 2000px for exhibition */
+  height: 100%;
+  margin: 0 auto 0 auto; /*this centers the thing BUT THEN IT'S NOT FIXED*/
+  text-align: center;
+  /*background-color: #ffffff;*/
+}
+
 #navbar {
 	position: fixed;
 	top: -10px;
@@ -37,11 +45,11 @@ or specify classes otherwise all lists end up looking like navbar. awkwardlol. p
 
 #navbar li {
 	display: inline;  
-	font-family: garamond;
+	font-family: 'Libre Baskerville', serif;
 	font-color: #000000;
   font-style: italic;
-  font-size: 18pt;
-  padding: 5%;
+  font-size: 15pt;
+  padding: 0 5%;
 	
 }
 
@@ -61,7 +69,7 @@ a:visited {text-decoration:none;}
 a:hover {text-decoration:none;}
 a:active {text-decoration:none;}
 
-body {font-family: garamond;
+body {font-family: 'Libre Baskerville', serif;
       font-size:large;
 }
 

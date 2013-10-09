@@ -4,11 +4,14 @@
   	<p>Inter_faces is a project that encourages discussion about how we use social media <br>and the way we create identities online.<br>
       <b>Scroll down to begin.</b></p></div>
   
-<div class="centered">
+<div class="centered"><div id="skrollrviewwindow">
   <%= image_tag "fact1.png", :id => "fact1", :data => { 100 => "top:2000px", 600 => "top:-200px", 1000 => "top: -200px", 1200 => "top:-3000%" "display:none"} %><br>
 
   <%= image_tag "pip2.png", :id => "pip2", :data => { 0 => "top:2000px", 400 => "top:100px", 1500 => "top:100px", 1700 => "top: -1500%" } %><br>
-<!-- make this screen better resolution or something -- make sure all the facts take same time to scroll, all questions etc -->
+<!-- make this screen better resolution or something
+     not sure about the screens being so blue? add transparency, make different colour? 
+     fix the timing of all the things. all the facts should have same tempo, all the questions etc. 
+     what to do about the weird floating nose? who nose. haha -->
   <%= image_tag "screen.png", :id=> "screen", :data => { 600 => "top:2000px", 800 => "top:100px", 1500 => "top:100px", 1700 => "top: -1500%" } %>
   <%= image_tag "question1.png", :id=> "question1", :data => { 1500 => "top:2000px", 1900 => "top:0px", 2500 => "top:0px", 3200=> "top:-2000%"  } %>
   <%= image_tag "fact2.png", :id=> "fact2", :data => { 2000 => "top:3000px", 2800 => "top: -200px", 3200 => "top: -200px", 3400 => "top:-2000%" } %>
@@ -23,7 +26,7 @@
   <%= image_tag "smiling.png", :id => "smiling", :data => { 8000 => "top: -1000px", 8400 => "top:105px", 9200 => "top:105px", 9500 => "top: -3000%" } %>
   <%= image_tag "question4.png", :id => "question4", :data => { 8400 => "top: 3000px", 8800 => "top:0px", 9200 => "top:0px", 9500 => "top: -3000%" } %>
 
-  <div id="finalbit" data-9500="top:3000px;" data-10000="top:0px"><p>inter_faces is a project to create discussion around social media use. Add your thoughts and comments by clicking <%= link_to "your thoughts", controller: "posts" %>, or tweet with the hashtag #theinterfaces project.<br>
+  <div id="finalbit" data-9500="top:3000px;" data-10000="top:0px"><p>inter_faces is a project to create discussion around social media use. Add your thoughts and comments by clicking <%= link_to "your thoughts", controller: "posts" %>, or tweet with the hashtag #interfacesproject.<br>
     To create discussions within your own school, workplace or community, feel free to use our online and printable <%= link_to "tools", tools_path %>.<br><br>
   </p></div>
 
@@ -142,7 +145,7 @@
 </svg>
   </div>
   </div>
-
+  </div>
 
 	<script type="text/javascript" src="skrollr.min.js"></script>
     <script type="text/javascript">

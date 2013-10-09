@@ -1,7 +1,10 @@
-<div class="outer">
- <!-- the 'your thoughts' bit would be nice as a png in blue font-->
+
   <h1>your thoughts</h1>
-  <div><%= link_to 'New post', new_post_path %></div>
+  <div><%= link_to 'New post', new_post_path %>
+    
+<div id="outer">
+ <!-- the 'your thoughts' bit would be nice as a png in blue font-->
+
 
 
 <% @posts.each do |post| %>
@@ -17,3 +20,18 @@
   </div>
 
 </div>
+	<script>
+		$(function(){
+			$("#outer").mason({
+				itemSelector: ".inner",
+				ratio: 2,
+				sizes: [
+					[1,1],
+					[1,2],
+					[2,2]
+				],
+				layout: 'fluid',
+				gutter: 10
+			});
+		});
+		</script>
