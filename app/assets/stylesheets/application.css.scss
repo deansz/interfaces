@@ -15,8 +15,8 @@
 body { 
   padding-top: 50px;
   /*---- make background image better quality ----*/
-  background-image: image-url("background.png");
-  /*background-color: #c8c8c8;*/
+  /*background-image: image-url("background.png");*/
+  background-color: #c8c8c8;
   background-repeat: repeat-y;
   background-size: 100%;
 }
@@ -26,7 +26,7 @@ body {
   height: 100%;
   margin: 0 auto 0 auto; /*this centers the thing BUT THEN IT'S NOT FIXED*/
   text-align: center;
-  /*background-color: #ffffff;*/
+  background-color: #ffffff;
 }
 
 #navbar {

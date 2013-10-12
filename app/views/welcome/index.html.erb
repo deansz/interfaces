@@ -1,39 +1,57 @@
 
 <body>
-    <div id=intro><%= image_tag "interface.png" %>
-  	<p>Inter_faces is a project that encourages discussion about how we use social media <br>and the way we create identities online.<br>
-      <b>Scroll down to begin.</b></p></div>
-  
-<div class="centered"><div id="skrollrviewwindow">
-  <%= image_tag "fact1.png", :id => "fact1", :data => { 100 => "top:2000px", 600 => "top:-200px", 1000 => "top: -200px", 1200 => "top:-3000%" "display:none"} %><br>
 
-  <%= image_tag "pip2.png", :id => "pip2", :data => { 0 => "top:2000px", 400 => "top:100px", 1500 => "top:100px", 1700 => "top: -1500%" } %><br>
-<!-- make this screen better resolution or something
-     not sure about the screens being so blue? add transparency, make different colour? 
-     fix the timing of all the things. all the facts should have same tempo, all the questions etc. 
+<div class="centered"><div id="skrollrviewwindow">
+  <div id="automargins">
+  
+  <div id=intro data-0="top:0px;" data-200="top:0px;" data-600="top:=-500%"><%= image_tag "interface.png" %>
+  	<p>Inter_faces is a project that encourages discussion about how we use social media <br>and the way we create identities online.<br>
+      <b>Scroll down to begin.</b></p></div><br><br><br>
+<!--scene1-->
+  <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-100="top:3000px;" data-900="top:0px;" data-2400="top:0px;" data-2700="top:-500%"><p>
+  Studies have found a positive correlation between narcissism and the number of times you check Facebook each day.</p>
+   <p class="referencetext"> - Mehdizadeh, 2010. Self-Presentation 2.0: Narcissism and self-esteem on Facebook</p></div>
+   <%= image_tag "pip2.png", :id => "pip2", :data => { 100 => "top:2000px", 1000 => "top:100px", 4000 => "top:100px", 4400 => "top: -500%" } %>
+   <%= image_tag "screen.png", :id=> "screen", :data => { 1000 => "opacity: 0", 2500 => "opacity: 1", 4000 => "opacity: 1", 4400 => "opacity: 0" } %>
+    <%= image_tag "question1.png", :id=> "question1", :data => { 2500 => "top:2000px", 3000 => "top:0px", 4000 => "top:0px", 4400=> "top:-500%"  } %>
+    
+ 
+<!-- scene2 --> 
+  <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-4200="top:3000px;" data-5000="top:0px;" data-6500="top:0px;" data-6800="top:-500%;"><p>
+   One half of all teenagers that use social media admit to having lied online.</p>
+  <p class="referencetext"> - Pew Research Center, 2011. Teens, kindness and cruelty on social network sites</p></div>
+  <%= image_tag "nose1.png", :id=> "nose1", :data => { 4200 => "top:2000px", 6000 => "top: 350px", 8100 => "top: 350px", 9000 => "top:-500%" } %>
+  <%= image_tag "question2.png", :id=> "question2", :data => { 6600 => "top:2000px", 7100 => "top:0px", 8100 => "top: 0px", 9000=> "top: -500%" } %>
+  
+   <!-- scene3 -->
+  <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-8200="top: 3000px;" data-9000="top:0px;" data-10500="top:0px;" data-10800="top:-500%;"><p>
+  33% of teens that use social media are Facebook friends with people that they haven't met in person.</p>
+  <p class="referencetext"> - Pew Research Center, 2013. Teens, social media and privacy</p></div>
+    <!--sort this shit out - needs to be way after the fact leaves-->
+  <%= image_tag "pipback.png", :id => "pipback", :data => { 8200 => "top: 2000px", 9100 => "top: 100px", 11500 => "top:100px", 11900 => "top: -500%" } %>
+  <%= image_tag "screen2.png", :id => "screen2", :data => { 9100 => "opacity: 0", 10600 => "opacity: 1", 11500 => "opacity: 1", 11900 => "opacity: 0" } %>
+  <%= image_tag "strangers.png", :id => "strangers", :data => { 8500 => "top:2000px", 10000 => "top:150px", 18000 => "top:150px", 20000 => "top: -500%" } %>
+  <%= image_tag "question3.png", :id => "question3", :data => { 10000 => "top:2000px", 11500 => "top:0px", 11500 => "top:0px", 11900 => "top: -500%" } %>
+   
+  <!-- scene4 --> <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-11600="top: 3000px;" data-12400="top:0px;" data-13900="top:0px;" data-14200="top:-500%;"><p>
+  Studies have found a correlation between Facebook usage and overall decreased life satisfaction. </p>
+  <p class="referencetext"> - Kross et al., 2013. Facebook use predicts declines in subjective well-being in young adults</div>
+
+
+<!-- fix the timing of all the things. all the facts should have same tempo, all the questions etc. 
      what to do about the weird floating nose? who nose. haha -->
-  <%= image_tag "screen.png", :id=> "screen", :data => { 600 => "top:2000px", 800 => "top:100px", 1500 => "top:100px", 1700 => "top: -1500%" } %>
-  <%= image_tag "question1.png", :id=> "question1", :data => { 1500 => "top:2000px", 1900 => "top:0px", 2500 => "top:0px", 3200=> "top:-2000%"  } %>
-  <%= image_tag "fact2.png", :id=> "fact2", :data => { 2000 => "top:3000px", 2800 => "top: -200px", 3200 => "top: -200px", 3400 => "top:-2000%" } %>
-  <%= image_tag "nose1.png", :id=> "nose1", :data => { 2800 => "top:5000px", 3200 => "top: 350px", 4000 => "top: 350px", 4800 => "top:-2000%" } %>
-  <%= image_tag "question2.png", :id=> "question2", :data => { 3000 => "top:3000px", 3600 => "top:0px", 4000 => "top: 0px", 4800=> "top: -2000%" } %>
-  <%= image_tag "screen2.png", :id => "screen2", :data => { 4000 => "top: 3000px", 4400 => "top: 0px", 6300 => "top:0px", 6400 => "top:-2000%"} %>
-  <%= image_tag "pipback.png", :id => "pipback", :data => { 4200 => "top: 3000px", 4600 => "top: 100px", 9200 => "top:100px", 9500 => "top: -3000%" } %>
-  <%= image_tag "fact3.png", :id => "fact3", :data => { 4600 => "top: 3000px", 5100 => "top: -200px", 5400 => "top: -200px", 6000 => "top:-2000%" } %>
-  <%= image_tag "strangers.png", :id => "strangers", :data => { 5800 => "top:3000px", 6000 => "top:100px", 9200 => "top:100px", 9500 => "top: -3000%" } %>
-  <%= image_tag "question3.png", :id => "question3", :data => { 6200 => "top:3000px", 6500 => "top:0px", 7200 => "top:0px", 7300 => "top: -2000%" } %>
-  <%= image_tag "fact4.png", :id => "fact4", :data => { 6900 => "top: 3000px", 7600 => "top:-200px", 7800 => "top:-200px", 8000 => "top:-3000%" } %>
-  <%= image_tag "smiling.png", :id => "smiling", :data => { 8000 => "top: -1000px", 8400 => "top:105px", 9200 => "top:105px", 9500 => "top: -3000%" } %>
-  <%= image_tag "question4.png", :id => "question4", :data => { 8400 => "top: 3000px", 8800 => "top:0px", 9200 => "top:0px", 9500 => "top: -3000%" } %>
+
+  <!--%= image_tag "smiling.png", :id => "smiling", :data => { 8000 => "top: -1000px", 8400 => "top:105px", 9200 => "top:105px", 9500 => "top: -3000%" } %>
+  <!--%= image_tag "question4.png", :id => "question4", :data => { 8400 => "top: 3000px", 8800 => "top:0px", 9200 => "top:0px", 9500 => "top: -3000%" } %>
 
   <div id="finalbit" data-9500="top:3000px;" data-10000="top:0px"><p>inter_faces is a project to create discussion around social media use. Add your thoughts and comments by clicking <%= link_to "your thoughts", controller: "posts" %>, or tweet with the hashtag #interfacesproject.<br>
     To create discussions within your own school, workplace or community, feel free to use our online and printable <%= link_to "tools", tools_path %>.<br><br>
   </p></div>
 
 <!-- find some way of making linework in relation to pip's face so they don't cross over when browser resized-->  
-  <div id="linework1"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div id="linework1"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width: "100px">
 	<path style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:8000;stroke-dashoffset:8000"
-    data-600="stroke-dashoffset:8000;" data-900="stroke-dashoffset:0;display:block;" data-4400="display:none;"
+    data-1000="stroke-dashoffset:8000;" data-3500="stroke-dashoffset:0;display:block;" data-8100="stroke-dashoffset:0;display:block;" data-8700="stroke-dashoffset:8000;"
     d="M159.333,8.512c2.547,1.313,1.021,14.359,1.351,17.333
 	c0.695,6.263,0.722,13.284,0.324,19.657c-0.936,14.961-1.484,30.365-0.657,45.343c0.754,13.646-0.989,27.777,4.567,40.334
 	c2.592,5.856,8.551,8.238,14.749,8.332c6.522,0.099,13.288,0.929,19.594,2.26c6.801,1.437,13.405,2.572,20.073,4.657
@@ -143,9 +161,8 @@
 	c-7.046,2.477-4.946,20.976-4.488,26.625c1.671,20.614,6.489,40.788,8.623,61.41c2.857,27.609,3.94,55.689,2.903,83.475
 	c-0.355,9.496-1.094,19.009-1.538,28.475c-0.18,3.851-1.548,10.385,0.012,14.025"/>
 </svg>
-  </div>
-  </div>
-  </div>
+
+    </div></div>
 
 	<script type="text/javascript" src="skrollr.min.js"></script>
     <script type="text/javascript">
