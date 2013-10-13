@@ -24,27 +24,22 @@
   <%= image_tag "question2.png", :id=> "question2", :data => { 6600 => "top:2000px", 7100 => "top:0px", 8100 => "top: 0px", 9000=> "top: -500%" } %>
   
    <!-- scene3 -->
-  <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-8200="top: 3000px;" data-9000="top:0px;" data-10500="top:0px;" data-10800="top:-500%;"><p>
+  <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-8400="top: 3000px;" data-9200="top:0px;" data-10700="top:0px;" data-11000="top:-500%;"><p>
   33% of teens that use social media are Facebook friends with people that they haven't met in person.</p>
   <p class="referencetext"> - Pew Research Center, 2013. Teens, social media and privacy</p></div>
     <!--sort this shit out - needs to be way after the fact leaves-->
-  <%= image_tag "pipback.png", :id => "pipback", :data => { 8200 => "top: 2000px", 9100 => "top: 100px", 11500 => "top:100px", 11900 => "top: -500%" } %>
-  <%= image_tag "screen2.png", :id => "screen2", :data => { 9100 => "opacity: 0", 10600 => "opacity: 1", 11500 => "opacity: 1", 11900 => "opacity: 0" } %>
-  <%= image_tag "strangers.png", :id => "strangers", :data => { 8500 => "top:2000px", 10000 => "top:150px", 18000 => "top:150px", 20000 => "top: -500%" } %>
-  <%= image_tag "question3.png", :id => "question3", :data => { 10000 => "top:2000px", 11500 => "top:0px", 11500 => "top:0px", 11900 => "top: -500%" } %>
+  <%= image_tag "pipback.png", :id => "pipback", :data => { 8400 => "top: 2000px", 9300 => "top: 100px", 12100 => "top:100px", 13000 => "top: -500%" } %>
+  <%= image_tag "screen2.png", :id => "screen2", :data => { 10100 => "opacity: 0", 10800 => "opacity: 1", 12100 => "opacity: 1", 13000 => "opacity: 0" } %>
+  <%= image_tag "strangers.png", :id => "strangers", :data => { 9300 => "top:2000px", 11000 => "top:150px", 15500 => "top:150px", 16700 => "top: -500%" } %>
+  <%= image_tag "question3.png", :id => "question3", :data => { 11000 => "top:2000px", 11300 => "top:0px", 12100 => "top:0px", 13000 => "top: -500%" } %>
    
-  <!-- scene4 --> <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-11600="top: 3000px;" data-12400="top:0px;" data-13900="top:0px;" data-14200="top:-500%;"><p>
+  <!-- scene4 --> <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-12600="top: 3000px;" data-13600="top:0px;" data-14300="top:0px;" data-14600="top:-500%;"><p>
   Studies have found a correlation between Facebook usage and overall decreased life satisfaction. </p>
   <p class="referencetext"> - Kross et al., 2013. Facebook use predicts declines in subjective well-being in young adults</div>
+  <%= image_tag "smiling.png", :id => "smiling", :data => { 13600 => "opacity: 0", 14300 => "opacity: 1", 15000 => "opacity: 1", 15500 => "opacity: 0" } %>
+  <%= image_tag "question4.png", :id => "question4", :data => { 14300 => "top: 2000px", 14800 => "top:0px", 15800 => "top:0px", 16700 => "top: -500%" } %>
 
-
-<!-- fix the timing of all the things. all the facts should have same tempo, all the questions etc. 
-     what to do about the weird floating nose? who nose. haha -->
-
-  <!--%= image_tag "smiling.png", :id => "smiling", :data => { 8000 => "top: -1000px", 8400 => "top:105px", 9200 => "top:105px", 9500 => "top: -3000%" } %>
-  <!--%= image_tag "question4.png", :id => "question4", :data => { 8400 => "top: 3000px", 8800 => "top:0px", 9200 => "top:0px", 9500 => "top: -3000%" } %>
-
-  <div id="finalbit" data-9500="top:3000px;" data-10000="top:0px"><p>inter_faces is a project to create discussion around social media use. Add your thoughts and comments by clicking <%= link_to "your thoughts", controller: "posts" %>, or tweet with the hashtag #interfacesproject.<br>
+  <div id="finalbit" data-16400="top:3000px;" data-16800="top:0px"><p>inter_faces is a project to create discussion around social media use. Add your thoughts and comments by clicking <%= link_to "your thoughts", controller: "posts" %>, or tweet with the hashtag #interfacesproject.<br>
     To create discussions within your own school, workplace or community, feel free to use our online and printable <%= link_to "tools", tools_path %>.<br><br>
   </p></div>
 
@@ -163,7 +158,6 @@
 </svg>
 
     </div></div>
-
 	<script type="text/javascript" src="skrollr.min.js"></script>
     <script type="text/javascript">
       var s = skrollr.init();
