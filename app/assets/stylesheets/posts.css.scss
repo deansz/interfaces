@@ -8,10 +8,52 @@
     float: left;
     background-color: #d3d3d3;
     position: relative;
-    overflow-y: scroll; /*make the scrollbars less ugly at some point*/
+    overflow: hidden;
 }
+
+
+#fillers{
+			display: none;
+		}
+		.fillerBox {
+			background-color: #751e11;
+			float: left;
+			position: relative;
+		}
+
 
 .posttitle {
     font-weight: bold;
   
 }
+
+.textarea {
+  background-color: #d3d3d3;
+  width: 700px;
+  text-align: left;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#notcentertext {
+  text-align: left;
+  padding-left: 405px;
+  font-size: medium;
+  font-style: italic;
+}
+
+#rule {
+  height: 2px;
+  width: 700px;
+  background-color: #6dcff6;
+  margin: 5px 0px 10px 400px;
+}
+
+.theform {
+  width: 50px
+}
+
+#title {
+  height: 50px;
+}
+

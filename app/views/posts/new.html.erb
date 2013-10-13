@@ -1,19 +1,19 @@
 <h1>New Post</h1>
 
 <%= form_for :post, url: posts_path do |f| %>
-  <p>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </p>
+<div id="notcentertext">
+  <%= f.label :title, "your name" %></div>
+<div id="rule"></div>
+<%= f.text_field :title, :class=>'textarea', :id=>'title' %>
+<br><br><br><br> 
+  <div id="notcentertext">
+    <%= f.label :text, "your thoughts" %></div>
+<div id="rule"></div>
+    <%= f.text_area :text, :class=>'textarea' %>
  
   <p>
-    <%= f.label :text %><br>
-    <%= f.text_area :text %>
-  </p>
- 
-  <p>
-    <%= f.submit %>
+    <%= f.submit "add your thoughts", :class=>'button'%>
   </p>
 <% end %>
- 
-<%= link_to 'Back', posts_path %>
+<br><br>
+<%= link_to 'back', posts_path %>

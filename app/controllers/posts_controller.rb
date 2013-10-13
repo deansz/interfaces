@@ -9,7 +9,7 @@ class PostsController < ApplicationController
   		@post = Post.new(params[:post].permit(:title, :text))
  
   		if @post.save
-  			redirect_to @post
+        redirect_to action: "index"
   		else
   			render 'new'
   		end

@@ -16,17 +16,17 @@ body {
   padding-top: 50px;
   /*---- make background image better quality ----*/
   /*background-image: image-url("background.png");*/
-  /*background-color: #c8c8c8;*/
+  background-color: #c8c8c8;
   background-repeat: repeat-y;
   background-size: 100%;
 }
 
 .centered {
-  width:1500px; /*use 2000px for exhibition */
+  width:1500px; /*use 2000px for exhibition*/ 
   height: 100%;
-  margin: 0 auto 0 auto; /*this centers the thing BUT THEN IT'S NOT FIXED*/
-  text-align: center;
+  margin: 0 auto 0 auto;
   background-color: #ffffff;
+  text-align: center;
 }
 
 #navbar {
@@ -76,4 +76,20 @@ body {font-family: 'Libre Baskerville', serif;
 hr {background-color:#6dcff6;
     height: 2px;
     border: none;
+}
+
+.button {
+  height: 30px;
+  width: 200px;
+  background-color: #666666;
+  color: white;
+  border: 0px;
+  font-size: medium;
+  font-family: 'libre baskerville', serif;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #6dcff6;
 }

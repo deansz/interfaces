@@ -1,7 +1,7 @@
 
 <body>
 
-<div class="centered"><div id="skrollrviewwindow">
+<div class="centered"> <div id="skrollrviewwindow">
   <div id="automargins">
   
   <div id=intro data-0="top:0px;" data-200="top:0px;" data-600="top:=-500%"><%= image_tag "interface.png" %>
@@ -41,8 +41,9 @@
 
   <div id="finalbit" data-16400="top:3000px;" data-16800="top:0px"><p>inter_faces is a project to create discussion around social media use. Add your thoughts and comments by clicking <%= link_to "your thoughts", controller: "posts" %>, or tweet with the hashtag #interfacesproject.<br>
     To create discussions within your own school, workplace or community, feel free to use our online and printable <%= link_to "tools", tools_path %>.<br><br>
+    <input type="button" class="button" onclick="scrollWindow()" value="back to top">
   </p></div>
-
+    
 <!-- find some way of making linework in relation to pip's face so they don't cross over when browser resized-->  
     <div id="linework1"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width: "100px">
 	<path style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:8000;stroke-dashoffset:8000"
@@ -158,6 +159,12 @@
 </svg>
 
     </div></div>
+  <script>
+function scrollWindow()
+  {
+  window.scrollTo(0)
+  }
+</script>
 	<script type="text/javascript" src="skrollr.min.js"></script>
     <script type="text/javascript">
       var s = skrollr.init();
