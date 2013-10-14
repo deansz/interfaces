@@ -12,11 +12,11 @@
         <div class="posttitle"><%= post.title %><br></div>
       <!--%= link_to 'Show', post_path(post) %-->
       <!--this is my sneaky delete button woohoo-->
-      <!--%= link_to 'Destroy', post_path(post),
-                      method: :delete, data: { confirm: 'Do you really want to delete this?' } %--><hr>
+      <%= link_to 'Destroy', post_path(post),
+                      method: :delete, data: { confirm: 'Do you really want to delete this?' } %><hr>
       <%= post.text %>
         	<div id='fillers'>
-			<div class='fillerBox'>1</div>
+			<div class='fillerBox'></div>
 		</div>
   </div>
     <% end %>
@@ -27,17 +27,22 @@
 		$(function(){
 			$("#outer").mason({
 				itemSelector: ".inner",
-				ratio: 4,
+				ratio: 3,
 				sizes: [
 					[2,2],
           [1,3],
-          [1,2],
           [2,3],
           [1,4],
           [2,4]
 				],
         filler: {
         itemSelector: '.fillerBox',
+          ratio: 2,
+          sizes: [
+            [2,2],
+            [1,2],
+            [1,1]
+            ],
         filler_class: 'custom_filler'
         },
 				layout: 'fluid',
@@ -45,3 +50,14 @@
 			});
 		});
 		</script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44830703-1', 'theinterfacesproject.com');
+  ga('send', 'pageview');
+
+</script>
