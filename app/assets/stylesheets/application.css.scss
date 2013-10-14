@@ -15,17 +15,17 @@
 body { 
   padding-top: 50px;
   /*---- make background image better quality ----*/
-  /*background-image: image-url("background.png");*/
-  background-color: #c8c8c8;
-  background-repeat: repeat-y;
-  background-size: 100%;
+  background-image: image-url("bgtile.png");
+  /*background-color: #c8c8c8;*/
+  background-repeat: repeat;
+  background-size: 150px;
 }
 
 .centered {
   width:1500px; /*use 2000px for exhibition*/ 
   height: 100%;
   margin: 0 auto 0 auto;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   text-align: center;
 }
 
@@ -33,7 +33,6 @@ body {
   width:1500px; /*use 2000 px for exhibition*/
   height:100%;
   position:fixed;
-  /*background-color: #e2f0b6;*/
   /*may have to add overflow-x: scroll; property when changing image components to fixed sizes*/
 }
 

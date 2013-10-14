@@ -1,6 +1,5 @@
 #outer {
     width: 100%;
-    background-color: white;
     position: relative; /*this has to be relative otherwise shit gets fucked up*/
 }
 
@@ -16,7 +15,6 @@
 			display: none;
 		}
 		.fillerBox {
-			background-color: #ffffff;
 			float: left;
 			position: relative;
 		}
