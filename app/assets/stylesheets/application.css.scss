@@ -29,6 +29,14 @@ body {
   text-align: center;
 }
 
+#skrollrviewwindow {
+  width:1500px; /*use 2000 px for exhibition*/
+  height:100%;
+  position:fixed;
+  /*background-color: #e2f0b6;*/
+  /*may have to add overflow-x: scroll; property when changing image components to fixed sizes*/
+}
+
 #navbar {
 	position: fixed;
 	top: -10px;
@@ -79,8 +87,9 @@ hr {background-color:#6dcff6;
 }
 
 .button {
-  height: 30px;
+  height: 100%;
   width: 200px;
+  margin: auto auto;
   background-color: #666666;
   color: white;
   border: 0px;
@@ -91,5 +100,29 @@ hr {background-color:#6dcff6;
 }
 
 .button:hover {
-  background-color: #6dcff6;
+    background-color: #6dcff6;
+}
+
+.button a:hover {
+  color: white;
+}
+
+.button a:visited {
+  color:#ffffff
+}
+
+.staticpagestext {
+  width: 800px;
+  margin-left: 350px;
+  line-height: 150%;
+}
+
+.titles {
+  width: 250px;
+  left: 700px;
+}
+
+.title2 {
+  width: 500px;
+  left: 500px;
 }
