@@ -65,6 +65,7 @@
     font-size: x-large;
     color: #666666;
     padding: 10px 10px;
+    text-align: center;
 }
 
 .referencetext {
@@ -87,8 +88,9 @@
 
 #screen2 {
   position: absolute;
-  width: 1000px;
-  right: 100px;
+  width: 800px;
+  right: 140px;
+  top: 120px;
   z-index: -1;
 }
 
@@ -120,8 +122,8 @@
 
 #finalbit {
   position: absolute;
-  text-align: center;
-  font-size: xx-large;
+  text-align: left;
+  font-size: x-large;
   width: 800px;
   right: 350px;
 }

@@ -18,7 +18,7 @@
  
 <!-- scene2 --> 
   <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-4200="top:3000px;" data-5000="top:0px;" data-6500="top:0px;" data-6800="top:-500%;"><p>
-   One half of all teenagers that use social media admit to having lied online.</p>
+   One half of all teenagers that use social media admit <br>to having lied online.</p>
   <p class="referencetext"> - Pew Research Center, 2011. Teens, kindness and cruelty on social network sites</p></div>
   <%= image_tag "nose1.png", :id=> "nose1", :data => { 4200 => "top:2000px", 6000 => "top: 350px", 8100 => "top: 350px", 9000 => "top:-500%" } %>
   <%= image_tag "question2.png", :id=> "question2", :data => { 6600 => "top:2000px", 7100 => "top:0px", 8100 => "top: 0px", 9000=> "top: -500%" } %>
@@ -31,7 +31,8 @@
   <%= image_tag "pipback.png", :id => "pipback", :data => { 8400 => "top: 2000px", 9300 => "top: 100px", 12100 => "top:100px", 13000 => "top: -500%" } %>
   <%= image_tag "screen2.png", :id => "screen2", :data => { 10100 => "opacity: 0", 10800 => "opacity: 1", 12100 => "opacity: 1", 13000 => "opacity: 0" } %>
   <%= image_tag "strangers.png", :id => "strangers", :data => { 9300 => "top:2000px", 11000 => "top:150px", 15500 => "top:150px", 16700 => "top: -500%" } %>
-  <%= image_tag "question3.png", :id => "question3", :data => { 11000 => "top:2000px", 11300 => "top:0px", 12100 => "top:0px", 13000 => "top: -500%" } %>
+  <!-- make this question a different colour?-->
+    <%= image_tag "question3.png", :id => "question3", :data => { 11000 => "top:2000px", 11300 => "top:0px", 12100 => "top:0px", 13000 => "top: -500%" } %>
    
   <!-- scene4 --> <div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-12600="top: 3000px;" data-13600="top:0px;" data-14300="top:0px;" data-14600="top:-500%;"><p>
   Studies have found a correlation between Facebook usage and overall decreased life satisfaction. </p>
@@ -42,8 +43,8 @@
   <div id="finalbit" data-16400="top:3000px;" data-16800="top:0px"><p>inter_faces is a project to create discussion around social media use. Add your thoughts and comments by clicking <%= link_to "your thoughts", controller: "posts" %>, or tweet with the hashtag #interfacesproject.<br>
     To create discussions within your own school, workplace or community, feel free to use our online and printable <%= link_to "tools", tools_path %>. 
     <br><br>
-    <input type="button" class="button" onclick="scrollWindow()" value="back to top">
-  </p></div>
+    <input type="button" class="button" onclick="scrollWindow()" value="back to top" style="margin-left:250px"></div>
+ 
     
 <!-- find some way of making linework in relation to pip's face so they don't cross over when browser resized-->  
     <div id="linework1"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width: "100px">
