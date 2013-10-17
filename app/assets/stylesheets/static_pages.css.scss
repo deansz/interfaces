@@ -2,7 +2,7 @@
   position: absolute;
   width:40%;
 	margin-left:9%;
-  z-index: 50
+  z-index: 50;
 }
 
 #aim {
@@ -45,3 +45,36 @@
   width:700px;
   right: 400px;
 }
+
+.presentation {
+  font-size: xx-large;
+  width: 800px;
+}
+
+.cp {
+  position:absolute;
+}
+
+#cprop1 {
+  position:absolute;
+  top: 0px;
+  width: 700px;
+  right: 400px;
+}
+
+#cprop2 {
+  position:absolute;
+  top: 0px;
+  width: 700px;
+  right: 400px;
+  z-index: -1;
+}
+
+#cprop3 {
+  position:absolute;
+  top: 0px;
+  width: 700px;
+  right: 400px;
+  z-index: -1;
+}
+
