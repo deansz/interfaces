@@ -26,3 +26,7 @@ logs
 public/uploads
 logs
 tmp
+public/uploads
+tmp
+logs
+log
