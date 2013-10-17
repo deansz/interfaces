@@ -30,3 +30,5 @@ public/uploads
 tmp
 logs
 log
+log/*
+tmp/*
