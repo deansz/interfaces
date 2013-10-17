@@ -58,23 +58,35 @@
 #cprop1 {
   position:absolute;
   top: 0px;
-  width: 700px;
-  right: 400px;
+  width: 550px;
+  right: 500px;
 }
 
 #cprop2 {
   position:absolute;
   top: 0px;
-  width: 700px;
-  right: 400px;
+  width: 550px;
+  right: 500px;
   z-index: -1;
 }
 
 #cprop3 {
   position:absolute;
   top: 0px;
-  width: 700px;
-  right: 400px;
+  width: 550px;
+  right: 500px;
   z-index: -1;
 }
 
+.info {
+  position:absolute;
+  top:0px;
+  width: 250px;
+  right: 625px;
+}
+
+#whyisthis {
+  position:absolute;
+  width: 700px;
+  right: 400px;
+}
