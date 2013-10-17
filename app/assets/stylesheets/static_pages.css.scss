@@ -10,7 +10,7 @@
   right:400px;
 }
 
-#painted2 {
+#paint {
   position:absolute;
   width:700px;
   right: 400px;
@@ -65,15 +65,13 @@
   position:absolute;
   width: 600px;
   right:400px;
-  top: 0px;
   z-index: -1;
 }
 
 #theory2 {
   position:absolute;
   width: 600px;
-  right:800px;
-  top: 0px;
+  right:400px;
   z-index: 1;
 }
 
@@ -81,7 +79,6 @@
   position:absolute;
   width: 600px;
   right:400px;
-  top: -500px;
   z-index: 2;
 }
 
@@ -89,7 +86,6 @@
   position:absolute;
   width: 600px;
   right:400px;
-  top: 0px;
   z-index: 3;
 }
 
@@ -141,5 +137,6 @@
 
 #linework2 {
   z-index: 20;
-  margin-top: 0px;
+  margin-top: 80px;
+  margin-left: 340px;
 }
