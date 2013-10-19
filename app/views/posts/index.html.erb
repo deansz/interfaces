@@ -10,7 +10,7 @@
 <% @posts.each do |post| %>
       <div class="inner">
         <div class="posttitle"><%= post.title %><br></div>
-      <!--%= link_to 'Show', post_path(post) %-->
+        <%= link_to 'see this thought', post_path(post) %><br><br>
       <!--this is my sneaky delete button woohoo-->
       <!--%= link_to 'Destroy', post_path(post),
                       method: :delete, data: { confirm: 'Do you really want to delete this?' } %><hr> -->

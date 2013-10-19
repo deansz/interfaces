@@ -15,10 +15,10 @@
 body { 
   padding-top: 50px;
   /*---- make background image better quality ----*/
-  background-image: image-url("bgtile.png");
+  background-image: image-url("reportbackground.svg");
   /*background-color: #c8c8c8;*/
   background-repeat: repeat;
-  background-size: 150px;
+  background-size: 50px;
 }
 
 .centered {
@@ -38,11 +38,13 @@ body {
 
 #navbar {
 	position: fixed;
-	top: -10px;
+	top: -20px;
   left: -10px;
   float: left;
+  padding-left: 6%;
+  padding-top: 20px; 
   width: 100%;
-  height: 30px;
+  height: 60px;
   background-color: #d3d3d3;
   z-index: 1
 }
@@ -56,7 +58,7 @@ or specify classes otherwise all lists end up looking like navbar. awkwardlol. p
 	font-color: #000000;
   font-style: italic;
   font-size: 15pt;
-  padding: 0 5%;
+  padding: 0 3%;
 	
 }
 

@@ -18,6 +18,7 @@ gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'multi_json'
 gem 'skrollr-rails'
+gem 'jquery-dotdotdot-rails'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
