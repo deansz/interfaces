@@ -64,31 +64,37 @@
 #theory1 {
   position:absolute;
   width: 600px;
-  right:400px;
+  right:450px;
   z-index: -1;
 }
 
 #theory2 {
   position:absolute;
   width: 600px;
-  right:400px;
+  right:450px;
   z-index: 1;
 }
 
 #theory3 {
   position:absolute;
   width: 600px;
-  right:400px;
+  right:450px;
   z-index: 2;
 }
 
 #theory4 {
   position:absolute;
   width: 600px;
-  right:400px;
+  right:450px;
   z-index: 3;
 }
 
+#mainpagedemo {
+  position: absolute;
+  width: 700px;
+  height: 50px;
+  z-index: 50;
+}
 /* -------------------this stuff copied from the main page-------------------------- */
 .facts {
     position: absolute;

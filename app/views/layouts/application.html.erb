@@ -26,7 +26,8 @@ add a static page for presentation w/ bigger type, could be temporary for presen
 needs to have central proposition aim etc simple but interesting
 
 adding that centered class to all the pages would probably be useful-->
-<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>  
+<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'> 
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>  
     <ul id="navbar" >
           <li><%= link_to "home", index_path %></li>
           <li><%= link_to "about", about_path %></li>
@@ -34,12 +35,12 @@ adding that centered class to all the pages would probably be useful-->
 					<li><%= link_to "theory", theory_path %></li>
           <li><%= link_to "your thoughts", controller: "posts" %></li>
 					<li><%= link_to "contact", contact_path %></li>
-					
-      <li><a href="https://twitter.com/intent/tweet?button_hashtag=interfacesproject" class="twitter-hashtag-button" data-related="zoedeans">Tweet #interfacesproject</a></li>
 				</ul>
 
 <div class="centered"> 
 <%= yield %>
+  <div id="tweetbutton">
+    <a href="https://twitter.com/intent/tweet?button_hashtag=interfacesproject" class="twitter-hashtag-button" data-related="zoedeans">Tweet #interfacesproject</a></div>
   </div>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </body>
