@@ -11,6 +11,7 @@
     overflow: hidden;
     text-align: left;
     padding: 10px 10px;
+    border-radius: 10px;
 }
 
 /* --------------------------------------------- */
@@ -26,7 +27,6 @@
 .posttitle {
      font-style: italic;
      padding-bottom: 6px;
-  
 }
 
 .textarea {
@@ -48,7 +48,7 @@
   height: 2px;
   width: 700px;
   background-color: #6dcff6;
-  margin: 5px 0px 10px 400px;
+  margin: auto auto;
 }
 
 .theform {
@@ -67,4 +67,14 @@
   margin-left: 400px;
   border: 0px;
   border-radius: 5px;
+}
+
+.showposts {
+  width: 700px;
+  height: 500px;
+  margin-left: 400px;
+  text-align: left;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 10px 20px;
 }

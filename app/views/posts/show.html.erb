@@ -1,13 +1,13 @@
 <div class="centered">
-  <p class="staticpagestext" style="text-align:left">
-  <strong>your name</strong><br>
-  <%= @post.title %>
+  <div class="showposts">
+    <p class="posttitle">name</p>
+    <%= @post.title %>
     <br>
-    
-  <strong>your thoughts</strong><br>
+<br>    
+  <p class="posttitle">thoughts</p><br>
   <%= @post.text %>
 
-<br>
+    <br><br><div id="rule"></div><br>
 <%= link_to 'back', posts_path %>
     
-    </p></div></div>
+</div></div>
