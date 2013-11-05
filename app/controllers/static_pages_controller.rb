@@ -8,6 +8,9 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
+  def future
+  end
+  
   def tools
   end
 end
