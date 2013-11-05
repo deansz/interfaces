@@ -1,24 +1,9 @@
-<p> hello world 
-Username: <input type="text" name="usrname"><br>
-
-
-
-
-<script>
-function myFunction()
-{
-window.scrollTo(500,500);
-}
-</script>
-
-<p>Click the button to trigger a function.</p>
-
-<button onclick="myFunction()">Submit</button>
-</p>
-
-    <!-- painted bits. have one face static and then you have lied 'x' times online and the nose gets 'x' brushstrokes bigger 
-         'how many times have you tweeted today' thing, assemble faces out of other faces - brushstrokes or filled in 
-          -->
+<div class="centered"> <div id="skrollrviewwindow">
+  <div id="automargins">
+<div class="facts" style="background-color: rgba(107, 205, 246, 0.4);" data-100="top:3000px;" data-900="top:0px;" data-2400="top:0px;" data-2700="top:-500%"><p>
+  One half of all teenagers that use social media admit <br>to having lied online.<br>
+  <em>In the last week, how many times have you lied online?</em>
+  </p></div>
 
 
   <%= image_tag "painted1.png", :id=>"painted1", :data => { 100 => "top: 2000px", 200 => "top:-100px", 600 => "top: -100px", 800 => "top: -200%" } %>
@@ -36,7 +21,7 @@ window.scrollTo(500,500);
     <!--%= image_tag "mel7.png", :id=>"paint", :data => { 8600 => "opacity:0", 8900 => "opacity:1", 9100 => "top:0px", 9300 => "top:-200%" } %-->
 
 
-	<!--script type="text/javascript" src="skrollr.min.js"></script>
+	<script type="text/javascript" src="skrollr.min.js"></script>
     <script type="text/javascript">
       var s = skrollr.init();
     </script>
