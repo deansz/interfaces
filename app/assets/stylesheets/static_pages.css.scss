@@ -29,33 +29,6 @@
   width: 800px;
 }
 
-.cp {
-  position:absolute;
-}
-
-#cprop1 {
-  position:absolute;
-  top: 0px;
-  width: 550px;
-  right: 500px;
-}
-
-#cprop2 {
-  position:absolute;
-  top: 0px;
-  width: 550px;
-  right: 500px;
-  z-index: -1;
-}
-
-#cprop3 {
-  position:absolute;
-  top: 0px;
-  width: 550px;
-  right: 500px;
-  z-index: -1;
-}
-
 .info {
   position:absolute;
   top:0px;
@@ -63,50 +36,27 @@
   right: 625px;
 }
 
-#whyisthis {
+.facts {
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    z-index: 90;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: x-large;
+    color: #666666;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+#futureintro {
   position:absolute;
-  width: 700px;
-  right: 400px;
+  width: 800px;
+  line-height: 150%;
 }
 
-#theory1 {
+#futureend {
   position:absolute;
-  width: 600px;
-  right:450px;
-  z-index: -1;
-}
-
-#theory2 {
-  position:absolute;
-  width: 600px;
-  right:450px;
-  z-index: 1;
-}
-
-#theory3 {
-  position:absolute;
-  width: 600px;
-  right:450px;
-  z-index: 2;
-}
-
-#theory4 {
-  position:absolute;
-  width: 600px;
-  right:450px;
-  z-index: 3;
-}
-
-#mainpagedemo {
-  position: absolute;
-  width: 700px;
-  height: 50px;
-  z-index: 50;
-}
-
-#thanks {
-  width: 700px;
-  right: 400px;
-  position: absolute;
-  z-index: 70;
+  width: 800px;
+  line-height: 150%;
 }
