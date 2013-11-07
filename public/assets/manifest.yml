@@ -19,6 +19,8 @@ info2.svg: info2-a7ceaef59f2b273fa3961b881c0bfc96.svg
 info2/index.svg: info2-a7ceaef59f2b273fa3961b881c0bfc96.svg
 info3.svg: info3-77072c4634df19015e68dc04c06bd1e3.svg
 info3/index.svg: info3-77072c4634df19015e68dc04c06bd1e3.svg
+inprogress.png: inprogress-2acbf30507f5a3e6824aff0b771c0fac.png
+inprogress/index.png: inprogress-2acbf30507f5a3e6824aff0b771c0fac.png
 interfaces.png: interfaces-9066f19f32c8303bcb71f55ea0df1e24.png
 interfaces/index.png: interfaces-9066f19f32c8303bcb71f55ea0df1e24.png
 mel.png: mel-10c06704f53489da7e7e57622892fb51.png
@@ -81,7 +83,7 @@ yourthoughts.png: yourthoughts-46fe94e3349409c69c755bf3e6decd05.png
 yourthoughts/index.png: yourthoughts-46fe94e3349409c69c755bf3e6decd05.png
 application.js: application-7ad4a5bb836c82cf4279e79eb266dd92.js
 application/index.js: application-7ad4a5bb836c82cf4279e79eb266dd92.js
-application.css: application-b5390073955796544b9b1b446c10fe7a.css
-application/index.css: application-b5390073955796544b9b1b446c10fe7a.css
+application.css: application-6648e427d9f05140e5c416946467ac5f.css
+application/index.css: application-6648e427d9f05140e5c416946467ac5f.css
 jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 jquery/index.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
