@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def tools
   end
+  
+  def future
+  end
 end

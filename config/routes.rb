@@ -8,6 +8,8 @@ Blog::Application.routes.draw do
   match '/tools', to: 'static_pages#tools', via: 'get'
 
   match '/about', to: 'static_pages#about', via: 'get'
+  
+  match '/future', to: 'static_pages#future', via: 'get'
 
   match '/index', to: 'welcome#index', via: 'get'
   
